@@ -1,4 +1,19 @@
 
+.header {
+	overflow: auto;
+}
+.header img {
+	float: right;
+	width: 125px;
+	height: 125px;
+	background: #555;
+}
+
+.header h1 {
+	width: 100%;
+	font-size: 36px;
+
+}
 .nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -25,7 +40,4 @@
 
 body {
 	font-family: monospace;
-}
-h1 {
-	font-family: arial;
 }

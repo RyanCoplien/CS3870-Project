@@ -3,15 +3,17 @@
 	overflow: auto;
 }
 .header img {
-	float: right;
+	float: left;
 	width: 125px;
 	height: 125px;
 	background: #555;
+	margin: 0 0 15px 15px;
+
 }
 
 .header h1 {
-	width: 100%;
-	font-size: 36px;
+	font-size: 40px;
+	text-align: center;
 
 }
 .nav ul {
@@ -21,7 +23,6 @@
 	overflow: hidden;
 	font-family: arial;
 	background-color: #333;
-	link
 }
 .nav li {
 	float: left;
@@ -35,9 +36,10 @@
 	text-decoration: none;
 }
 .nav li a:hover {
-	background-color: #111;
+	background-color: #e3a000;
 }
 
 body {
 	font-family: monospace;
+	color
 }

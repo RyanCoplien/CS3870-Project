@@ -40,7 +40,7 @@
 }
 
 body {
-	font-family: monospace;
+	font-family: arial;
 }
 
 body::after {
@@ -55,4 +55,13 @@ body::after {
   right: 0;
   position: absolute;
   z-index: -1;   
+}
+
+footer {
+	font-size: 11px;
+	font-family: verdana;
+	position:absolute;
+  bottom:0;
+  width:100%;
+  height:100px;   
 }

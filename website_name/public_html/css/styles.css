@@ -48,7 +48,7 @@ body::after {
   background: url("../img/background.jpg");
   background-size: 100%;
   background-repeat: repeat-y;
-  opacity: 0.2;
+  opacity: 0.3;
   top: 0;
   left: 0;
   bottom: 0;

@@ -45,6 +45,17 @@ body {
   background-size: cover;
 }
 
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-style: solid;
+	padding-left: 5px;
+}
+
+th {
+	text-align: left;
+}
+
 footer {
 	font-size: 11px;
 	font-family: verdana;

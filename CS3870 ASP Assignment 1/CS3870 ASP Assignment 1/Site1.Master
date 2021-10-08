@@ -1,0 +1,40 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="CS3870_ASP_Assignment_1.Site1" %>
+
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>Home</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+
+	<body>
+		<header> 
+			<div class="header">
+				<a href="index.aspx"><img src="img/wizard_wares_logo.png" alt="logo"></a>
+				<h1>Cicero's Hollow of Wizard&nbsp;Wares</h1>
+			</div>
+
+			<div class="nav">
+				<ul>
+					<li><a href="index.aspx">Home</a></li>
+					<li><a href="store.aspx">Online Store</a></li>
+					<li><a href="hours.aspx">Our Hours</a></li>
+					<li><a href="about.aspx">About Us</a></li>
+					<li><a href="news.aspx">News</a></li>
+					<li><a href="contact.aspx">Contact Us</a></li>
+				</ul>
+			</div>
+		</header>
+		<form id="form1" runat="server">
+			<div>
+				<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+				</asp:ContentPlaceHolder>
+			</div>
+		</form>
+		<footer>
+			<small>Website developed for Secure Programming (CS3870) course. <br>
+			&copy; Copyright 2021, Ryan Coplien &amp; Kasey Tippelt</small>
+		</footer>
+	</body>
+</html>

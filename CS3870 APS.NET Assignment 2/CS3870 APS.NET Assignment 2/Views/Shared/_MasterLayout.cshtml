@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/css/styles.css")
+    @Scripts.Render("~/bundles/modernizr") 
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <img src="../../img/wizard_wares_logo.png" alt="logo">
+            <h1>Cicero's Hollow of Wizard&nbsp;Wares</h1>
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li>@Html.ActionLink("Home", "Index", "Main")</li>
+                <li>@Html.ActionLink("Store", "Store", "Main")</li>
+                <li>@Html.ActionLink("Hours", "Hours", "Main")</li>
+                <li>@Html.ActionLink("About Us", "About", "Main")</li>
+                <li>@Html.ActionLink("News", "News", "Main")</li>
+                <li>@Html.ActionLink("Contact Us", "Contact", "Main")</li>
+            </ul>
+        </div>
+    </header>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    @RenderBody()
+    <footer>
+        <small>
+            Website developed for Secure Programming (CS3870) course. <br>
+            &copy; Copyright @DateTime.Now.Year, Ryan Coplien &amp; Kasey Tippelt
+        </small>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

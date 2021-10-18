@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Products>
+	<Product>
+		<ProductId>1</ProductId>
+		<ProductName>Wizard Wand</ProductName>
+		<ProductCost>30.00</ProductCost>
+	</Product>
+	<Product>
+		<ProductId>2</ProductId>
+		<ProductName>Wizard Hat</ProductName>
+		<ProductCost>20.00</ProductCost>
+	</Product>
+	<Product>
+		<ProductId>3</ProductId>
+		<ProductName>Wizard Owl</ProductName>
+		<ProductCost>100.00</ProductCost>
+	</Product>
+</Products>

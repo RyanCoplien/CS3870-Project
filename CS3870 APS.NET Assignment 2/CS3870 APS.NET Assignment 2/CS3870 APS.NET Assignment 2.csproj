@@ -184,6 +184,7 @@
     <Content Include="Views\Main\Edit.cshtml" />
     <Content Include="Views\Main\Create.cshtml" />
     <Content Include="Views\Main\Delete.cshtml" />
+    <Content Include="Views\Main\Login.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

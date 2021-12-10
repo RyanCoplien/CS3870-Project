@@ -26,6 +26,10 @@ namespace CS3870_APS.NET_Assignment_2.Controllers
         {
             return View();
         }
+        public ActionResult Login()
+        {
+            return View();
+        }
         public ActionResult Store()
         {
             var items = from s in storeList

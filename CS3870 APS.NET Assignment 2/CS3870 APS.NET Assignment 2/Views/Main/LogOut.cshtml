@@ -1,0 +1,13 @@
+﻿@model CS3870_APS.NET_Assignment_2.Models.Registration
+
+@{
+    ViewBag.Title = "LogOut";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+<h2>LogOut</h2>
+public ActionResult LogOut()
+{
+    FormsAuthentication.SignOut();
+    return RedirectToAction("Index");
+}

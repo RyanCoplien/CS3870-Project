@@ -151,7 +151,11 @@ C:\Users\Admin\Documents\GitHub\CS3870-Project\CS3870 APS.NET Assignment 2\CS387
 C:\Users\Admin\Documents\GitHub\CS3870-Project\CS3870 APS.NET Assignment 2\CS3870 APS.NET Assignment 2\bin\Newtonsoft.Json.xml
 C:\Users\Admin\Documents\GitHub\CS3870-Project\CS3870 APS.NET Assignment 2\CS3870 APS.NET Assignment 2\bin\Antlr3.Runtime.pdb
 C:\Users\Admin\Documents\GitHub\CS3870-Project\CS3870 APS.NET Assignment 2\CS3870 APS.NET Assignment 2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Admin\Documents\GitHub\CS3870-Project\CS3870 APS.NET Assignment 2\CS3870 APS.NET Assignment 2\obj\Debug\CS3870 APS.NET Assignment 2.csproj.AssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\CS3870-Project\CS3870 APS.NET Assignment 2\CS3870 APS.NET Assignment 2\obj\Debug\CS3870 APS.NET Assignment 2.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\GitHub\CS3870-Project\CS3870 APS.NET Assignment 2\CS3870 APS.NET Assignment 2\obj\Debug\CS3870 APS.NET Assignment 2.dll
 C:\Users\Admin\Documents\GitHub\CS3870-Project\CS3870 APS.NET Assignment 2\CS3870 APS.NET Assignment 2\obj\Debug\CS3870 APS.NET Assignment 2.pdb
+C:\Users\Admin\Documents\GitHub\CS3870-Project\CS3870 APS.NET Assignment 2\CS3870 APS.NET Assignment 2\bin\EntityFramework.dll
+C:\Users\Admin\Documents\GitHub\CS3870-Project\CS3870 APS.NET Assignment 2\CS3870 APS.NET Assignment 2\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\GitHub\CS3870-Project\CS3870 APS.NET Assignment 2\CS3870 APS.NET Assignment 2\bin\SimpleCrypto.dll
+C:\Users\Admin\Documents\GitHub\CS3870-Project\CS3870 APS.NET Assignment 2\CS3870 APS.NET Assignment 2\bin\EntityFramework.xml
+C:\Users\Admin\Documents\GitHub\CS3870-Project\CS3870 APS.NET Assignment 2\CS3870 APS.NET Assignment 2\bin\EntityFramework.SqlServer.xml

@@ -22,7 +22,15 @@
                 <li>@Html.ActionLink("About Us", "About", "Main")</li>
                 <li>@Html.ActionLink("News", "News", "Main")</li>
                 <li>@Html.ActionLink("Contact Us", "Contact", "Main")</li>
-                <li style="float:right">@Html.ActionLink("Login", "Login", "Main")</li>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <li style="float:right">@Html.ActionLink("Log Out", "LogOut", "Main")</li>
+                }
+                else
+                {
+                    <li style="float:right">@Html.ActionLink("Register", "Register", "Main")</li>
+                    <li style="float:right">@Html.ActionLink("Login", "LogIn", "Main")</li>
+                }
             </ul>
         </div>
     </header>

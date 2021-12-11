@@ -10,7 +10,7 @@ namespace CS3870_APS.NET_Assignment_2.Models
     public partial class Registration
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int UserID { get; set; }
 
         [Required]

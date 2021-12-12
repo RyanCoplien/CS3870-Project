@@ -5,9 +5,18 @@
     Layout = "~/Views/Shared/_MasterLayout.cshtml";
 }
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
+@if (User.Identity.IsAuthenticated)
+{
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+} 
+else
+{
+    <p>
+
+    </p>
+}
 <table class="table">
     <tr>
         <th>
@@ -28,12 +37,14 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Cost)
             </td>
+            @if (User.Identity.IsAuthenticated)
+            {
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
                 @Html.ActionLink("Delete", "Delete", new { id = item.ID })
             </td>
+            }
         </tr>
     }
-
 </table>
 

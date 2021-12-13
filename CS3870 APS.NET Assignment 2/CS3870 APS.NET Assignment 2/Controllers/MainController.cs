@@ -9,6 +9,7 @@ using System.Web.Security;
 
 namespace CS3870_APS.NET_Assignment_2.Controllers
 {
+    [RequireHttps]
     public class MainController : Controller
     {
         // GET: Main

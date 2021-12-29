@@ -10,6 +10,7 @@ There were many goals achieved for this project, including:
 * Using encryption to hash, salt, and store passwords to a database
 * Using data filtering to force valid inputs
 * Providing protection from SQL Injection attacks
+* Utilize AJAX to provide easier loading and viewing UI experience
 
 
 Contributors include Ryan Coplien and Kasey Tippelt
